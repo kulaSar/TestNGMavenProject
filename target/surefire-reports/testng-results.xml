@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome launched]]>
+    </line>
+    <line>
+      <![CDATA[Title Matched]]>
+    </line>
+    <line>
+      <![CDATA[-----Script is passed-----]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-17T17:04:05 IST" name="Suite" finished-at="2023-07-17T17:04:15 IST" duration-ms="10164">
+    <groups>
+    </groups>
+    <test started-at="2023-07-17T17:04:05 IST" name="Test" finished-at="2023-07-17T17:04:15 IST" duration-ms="10164">
+      <class name="com.kula.testscripts.TestHarness">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.kula.testscripts.TestHarness@327514f]" started-at="2023-07-17T17:04:05 IST" name="setUp" finished-at="2023-07-17T17:04:13 IST" duration-ms="8010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.hubspot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="goToMarketingHub()[pri:0, instance:com.kula.testscripts.TestHarness@327514f]" started-at="2023-07-17T17:04:13 IST" name="goToMarketingHub" finished-at="2023-07-17T17:04:15 IST" duration-ms="2081" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToMarketingHub -->
+        <test-method is-config="true" signature="afterCondition(org.testng.ITestResult)[pri:0, instance:com.kula.testscripts.TestHarness@327514f]" started-at="2023-07-17T17:04:15 IST" name="afterCondition" finished-at="2023-07-17T17:04:15 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToMarketingHub status=SUCCESS method=TestHarness.goToMarketingHub()[pri:0, instance:com.kula.testscripts.TestHarness@327514f] output=Title Matched]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[-----Script is passed-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterCondition -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kula.testscripts.TestHarness@327514f]" started-at="2023-07-17T17:04:15 IST" name="tearDown" finished-at="2023-07-17T17:04:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kula.testscripts.TestHarness -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
