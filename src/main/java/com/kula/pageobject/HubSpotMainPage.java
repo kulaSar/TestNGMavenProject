@@ -15,12 +15,17 @@ public class HubSpotMainPage {
 	private WebElement MarketingHubLearnMoreButton;
 	@FindBy(xpath="//h3[contains(.,'Sales Hub')]/ancestor::div[@class='home-products-feature__card']//a[text()='Learn more']")
 	private WebElement SalesHubLearnMoreButton;
+	@FindBy(xpath="//h3[contains(.,'Sales Hub')]/ancestor::div[@class='home-products-feature__card']//a[text()='Learn more']")
+	private WebElement ServiceHubLearnMoreButton;
 	
 	public void clickOnMarketingHubLearnMoreButton() {
 		MarketingHubLearnMoreButton.click();
 	}
 	public void clickOnSalesHubLearnMoreButton() {
 		SalesHubLearnMoreButton.click();
+	}
+	public void clickOnServiceHubLearnMoreButton() {
+		ServiceHubLearnMoreButton.click();
 	}
 	
 
