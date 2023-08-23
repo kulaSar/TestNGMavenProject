@@ -15,7 +15,7 @@ public class HubSpotMainPage {
 	private WebElement MarketingHubLearnMoreButton;
 	@FindBy(xpath="//h3[contains(.,'Sales Hub')]/ancestor::div[@class='home-products-feature__card']//a[text()='Learn more']")
 	private WebElement SalesHubLearnMoreButton;
-	@FindBy(xpath="//h3[contains(.,'Sales Hub')]/ancestor::div[@class='home-products-feature__card']//a[text()='Learn more']")
+	@FindBy(xpath="//h3[text()='Service Hub']/ancestor::div[@class='home-products-feature__card']//a[contains(text(),'Learn more')]")
 	private WebElement ServiceHubLearnMoreButton;
 	
 	public void clickOnMarketingHubLearnMoreButton() {
